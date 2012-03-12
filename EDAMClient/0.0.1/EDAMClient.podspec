@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
   s.source    = { :git => 'https://github.com/mcglincy/EDAMClient.git' }
   s.source_files  = FileList['EDAMClient/*.{h,m}', '3rdParty/**/*.{h,c,m}']
+  s.frameworks = 'Foundation'
   s.dependency 'EDAM'
   s.dependency 'FoundationKitAdditions'
 end
