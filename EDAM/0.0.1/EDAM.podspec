@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary   = 'Evernote Data Access and Management (EDAM) protocol for iOS.'
   s.homepage  = 'http://www.evernote.com/about/developer/'
   s.author   = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
-  s.source    = { :git => 'https://github.com/mcglincy/EDAM.git' }
+  s.source    = { :git => 'https://github.com/evernote/EDAM.git' }
   s.source_files  = FileList['EDAM/*.{h,m}', '3rdParty/**/*.{h,c,m}']
   s.frameworks = 'Foundation'
 end

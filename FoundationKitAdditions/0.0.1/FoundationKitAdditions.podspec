@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.summary   = 'Evernote Foundation Kit Additions.'
   s.homepage  = 'http://www.evernote.com/about/developer/'
   s.author   = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
-  s.source    = { :git => 'https://github.com/mcglincy/FoundationKitAdditions.git' }
+  s.source    = { :git => 'https://github.com/evernote/FoundationKitAdditions.git' }
   s.source_files  = FileList['FoundationKitAdditions/*.{h,m}', '3rdParty/**/*.{h,c,m}']
 end
