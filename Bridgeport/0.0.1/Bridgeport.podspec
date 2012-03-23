@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
   s.source = { :git => 'https://github.com/Evernote-Austin/Bridgeport.git' }
   files = FileList['Bridgeport/*.{h,m}', 'BridgePortIOS/*.{h,m}', 'BridgePortIOS/**/*.{pch}']
-  files.exclude('*Test*.{h,m}')
+  files.exclude('/Test/')
   s.source_files = files
   s.frameworks = 'CoreGraphics', 'Foundation', 'MessageUI', 'QuartzCore', 'Twitter', 'UIKit'
   s.requires_arc = true
