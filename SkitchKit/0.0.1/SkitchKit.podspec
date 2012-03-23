@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage  = 'http://www.evernote.com/about/developer/'
   s.author   = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
   s.source    = { :git => 'https://github.com/Evernote-Austin/SkitchKit.git' }
-  s.source_files  = FileList['SkitchKit/*.{h,m}', 'SkitchKitIOS/*.{h,m}']
+  s.source_files  = FileList['SkitchKit/*.{h,m}', 'SkitchKitIOS/*.{h,m}', 'SkitchKitIOS/**/*.{pch}']
   s.frameworks = 'CoreGraphics', 'CoreText', 'Foundation', 'MessageUI', 'Twitter', 'UIKit'
   s.library    = 'z'
 end
