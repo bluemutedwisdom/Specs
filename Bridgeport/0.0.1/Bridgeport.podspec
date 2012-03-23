@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://www.evernote.com/about/developer/'
   s.author = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
   s.source = { :git => 'https://github.com/Evernote-Austin/Bridgeport.git' }
-  files = FileList['Bridgeport/*.{h,m}', 'BridgePortIOS/*.{h,m}', 'BridgePortIOS/**/*.{pch}'].exclude(/*Test*/)
+  files = FileList['Bridgeport/*.{h,m}', 'BridgePortIOS/*.{h,m}', 'BridgePortIOS/**/*.{pch}']
   files.exclude(/(TestCase|Tests)\.[hm]/)
   s.source_files = files
   s.frameworks = 'CoreGraphics', 'Foundation', 'MessageUI', 'QuartzCore', 'Twitter', 'UIKit'
