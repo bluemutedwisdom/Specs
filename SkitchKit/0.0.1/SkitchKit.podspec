@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files  = FileList['SkitchKit/*.{h,m}', 'SkitchKitIOS/*.{h,m}', 'SkitchKitIOS/**/*.{pch}']
   s.frameworks = 'CoreGraphics', 'CoreText', 'Foundation', 'MessageUI', 'Twitter', 'UIKit'
   s.library    = 'z'
+  s.dependency 'Bridgeport'
 end
