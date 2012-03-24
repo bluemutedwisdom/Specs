@@ -6,10 +6,9 @@ Pod::Spec.new do |s|
   s.summary   = 'Shared Skitch rendering components.'
   s.homepage  = 'http://www.evernote.com/about/developer/'
   s.author   = { 'Matt McGlincy' => 'mmcglincy@evernote.com' }
-  s.source    = { :git => 'https://github.com/Evernote-Austin/SkitchKit.git' }
+  s.source    = { :git => 'https://github.com/mcglincy/SkitchKit.git' }
   s.source_files  = FileList['SkitchKit/*.{h,m}', 'SkitchKitIOS/*.{h,m}', 'SkitchKitIOS/**/*.{pch}']
   s.frameworks = 'CoreGraphics', 'CoreText', 'Foundation', 'MessageUI', 'Twitter', 'UIKit'
   s.dependency 'Bridgeport'
   s.library    = 'z'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 end
